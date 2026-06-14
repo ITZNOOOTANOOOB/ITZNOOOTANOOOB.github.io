@@ -1,0 +1,30 @@
+/* 1. 整個網頁的背景圖設定 */
+body {
+    background-image: url('../images/GrokEdited.png'); /* 這代表圖片和這個 css 檔案在同一個地方 */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: 0;
+    font-family: sans-serif;
+}
+    
+/* 2. 半透明文字遮罩框 */
+.content-box {
+    background-color: rgba(255, 255, 255, 0.85); /* 白色背景，85% 不透明度 */
+    padding: 40px;
+    margin: 100px auto; /* 上下留空 100px，左右自動置中 */
+    max-width: 600px; /* 限制框框的最大寬度 */
+    border-radius: 12px; /* 圓角效果 */
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15); /* 淡淡的陰影 */
+}
+
+h1 {
+    color: #333333;
+    margin-top: 0;
+}
+
+p {
+    color: #555555;
+    line-height: 1.6;
+}

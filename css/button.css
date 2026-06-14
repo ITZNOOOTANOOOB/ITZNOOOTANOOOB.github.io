@@ -1,0 +1,66 @@
+/* ==========================================
+   3. 按鈕與並列佈局設定
+   ========================================== */
+
+/* 按鈕的外層容器：負責排版 */
+.btn-group {
+    display: flex;         /* 啟用彈性盒模型，讓子元素（按鈕）自動並列 */
+    gap: 50px;            /* 按鈕與按鈕之間的間距 */
+    margin-top: 30px;     /* 與上方文字段落保持距離 */
+    justify-content: center; /* 讓按鈕群組在框框內「置中對齊」 */
+    flex-wrap: wrap;      /* ⚡ 響應式關鍵：如果手機螢幕太窄塞不下，按鈕會自動換行，不會卡出框外 */
+}
+
+/* 按鈕的通用樣式（長相） */
+.btn {
+    display: flex;
+    padding: 12px 24px;   /* 按鈕內邊距（上下 12px，左右 24px） */
+    font-size: 1rem;
+    color: #555555;       /* 按鈕文字顏色 */
+    background-color: #f0f0f0; /* 按鈕背景顏色 */
+    text-decoration: none; /* 移除超連結預設的下底線 */
+    border-radius: 6px;   /* 按鈕圓角 */
+    border: 1px solid #dddddd;
+    font-weight: bold;
+    text-align: center;
+    transition: all 0.2s ease; /* 讓滑鼠移上去的變色效果更平滑 */
+    cursor: pointer;
+    
+    /* 確保在手機版換行時，按鈕能平均分配寬度（可選） */
+    flex: 1;
+    min-width: 100px;     /* 限制按鈕最小寬度，避免縮得太小 */
+}
+
+/* ⚡ 滑鼠懸停效果：當游標移到按鈕上時變色 */
+.btn:hover {
+    background-color: #e0e0e0;
+    color: #333333;
+    transform: translateY(-2px); /* 按鈕微微往上浮動，增加互動感 */
+}
+
+/* ⚡ 特殊按鈕樣式：如果你想讓第一個按鈕特別明顯（主按鈕） */
+.btn.primary-btn {
+    background-color: #2c95d1; /* 經典藍色 */
+    color: #ffffff;
+    border-color: #000000;
+}
+
+.btn.primary-btn:hover {
+    background-color: #0056b3;
+    color: #ffffff;
+}
+.btn-group {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    /* ⚡ 核心修改：固定在螢幕底部 */
+    position: fixed;      /* 絕對定位，脫離一般排版流 */
+    bottom: 0;            /* 緊貼螢幕最下緣 */
+    left: 0;              /* 緊貼螢幕最左緣 */
+    width: 100%;          /* 寬度撐滿整個螢幕 */
+    
+   
+}
+

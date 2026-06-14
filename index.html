@@ -1,61 +1,81 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-<!-- 标准 ICO 格式引入 -->
-<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-
-<!-- （可选）现代浏览器也支持高清的 PNG 格式 -->
-<link rel="icon" href="/favicon.png" type="image/png">
-<img src="images/Grok Edited.jpg" 
-     srcset="photo-1x.jpg 1x, photo-2x.jpg 2x, photo-3x.jpg 3x" 
-     alt="1ST PICTURE" 
-     width="400">
-
-
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.png" type="image/png">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ITZNOOOTANOOB's Website</title>
-    <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { font-family: 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #333; }
-        header { background: #2c2020; color: #bb0b0b; padding: 2rem; text-align: center; }
-        .container { max-width: 960px; margin: 0 auto; padding: 2rem; }
-        .feature-grid { display: flex; gap: 20px; margin-top: 2rem; }
-        .feature-box { flex: 1; background: #000000; padding: 1.5rem; border-radius: 5px; text-align: center; }
-        footer { background: #333; color: #000000; text-align: center; padding: 1rem; position: fixed; width: 100%; bottom: 0; }
-        
-        @media (max-width: 768px) {
-            .feature-grid { flex-direction: column; }
-            footer { position: relative; }
-        }
-    </style>
+    <title style="">ITZNOOTANOOOB's website</title>
+    
+    <!-- 引入與 HTML 在同一資料夾下的 style.css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/button.css">
+    <link rel="stylesheet" href="css/click.css">
 </head>
+
 <body>
-    <header>
-        <h1>WELCOME TO</h1>
-        <p>LZNNNNNNNNNNNNNNBBBB</p>
-    </header>
+    <style>.game-wrapper {
+    display: grid;
+    place-items: center; /* 一键实现水平和垂直完美居中 */
+    min-height: 10vh;   /* 让包裹层撑满整个屏幕高度 */
+}
+    .parent {
+    display: flex;
+    justify-content: center; /* 水平居中 */
+    align-items: center;     /* 垂直居中 */
+}
+</style>
+    
 
-    <div class="container">
-        <h2>
-        <div class="feature-grid">
-            <div class="feature-box">
-                <h3></h3>
-                <p></p>
-            </div>
-            <div class="feature-box">
-                <h3>A FREAKING PROJECT </h3>
-                <p></p>
-            </div>
-            <div class="feature-box">
-                <h3></h3>
-                <p></p>
-            </div>
-        </div>
+    <!-- 文字內容遮罩區塊 -->
+    <div class="content-box">
+        <h1 style="text-align: center;font-size: 5rem;font-family: Book Antiqua;">Welcome to this site!</h1>
+        <p style="text-align: center;"> By ITZNOOTANOOOB</p>
+         <div class="game-wrapper">
+            <iframe src="2048.html" width="360" height="480" frameborder="0" scrolling="no"></iframe></div>
+        <!-- 計數器容器 -->
+    <div class="counter-container">
+    <!-- 顯示數字的區域 -->
+    <div class="counter-display" id="counter">0</div>
+    
+    <!-- 具有點擊感的按鈕 -->
+    <div class="parent"><button class="click-btn" id="clickBtn" >CLICK ME</button>
+    
+    <!-- 歸零按鈕 -->
+    <button class="reset-btn" id="resetBtn">Zero</button></div>
+</div>
+
+          
+                                      
+      <div class="btn-group">
+        <!-- 请把 href="#" 换成你想跳轉的網址，例如 https://google.com -->
+        <a href="https://www.google.com/" class="btn">Search</a>
+        <a href="https://github.com/ITZNOOOTANOOOB/ITZNOOOTANOOOB.github.io" class="btn primary-btn">Github</a>
+        <a href="https://x.com/SantaFe1534950" class="btn">Twitter</a>
+        
     </div>
+</div>
+<script>
+    // 1. 抓取網頁上的元素
+    const counterDisplay = document.getElementById('counter');
+    const clickBtn = document.getElementById('clickBtn');
+    const resetBtn = document.getElementById('resetBtn');
 
-    <footer>
-        <p>
-    </footer>
+    // 2. 設定初始數字
+    let count = 0;
+
+    // 3. 監聽點擊按鈕事件
+    clickBtn.addEventListener('click', () => {
+        count++; // 數字加 1
+        counterDisplay.textContent = count; // 更新畫面數字
+    });
+
+    // 4. 監聽歸零按鈕事件
+    resetBtn.addEventListener('click', () => {
+        count = 0; // 數字歸零
+        counterDisplay.textContent = count; // 更新畫面數字
+    });
+</script>
+
 </body>
 </html>

@@ -1,0 +1,67 @@
+/* 計數器整體外框 */
+.counter-container {
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+/* 數字顯示區域 */
+.counter-display {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 20px;
+    /* 數字變動時防止畫面抖動 */
+    font-variant-numeric: tabular-nums; 
+}
+
+/* 核心：具有立體點擊感的按鈕 */
+.click-btn {
+    display: flex;
+    padding: 16px 32px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #000000; /* 質感藍色 */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    outline: none;
+    
+    /* 💡 立體感的關鍵：利用厚實的陰影造就按鈕厚度 */
+    box-shadow: 0 6px #000000, 0 10px 15px rgba(0, 0, 0, 0.2);
+    
+    /* 讓放開時的彈回動作更平滑 */
+    transition: all 0.1s ease; 
+}
+
+/* 滑鼠懸停時微微向下移動 1 像素，看起來更有彈性 */
+.click-btn:hover {
+    background-color: #0069d9;
+    transform: translateY(1px);
+    box-shadow: 0 5px #0056b3, 0 9px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* ⚡ 關鍵：當按鈕被按住（Active）時的效果 */
+.click-btn:active {
+    background-color: #0056b3;
+    /* 向下平移 5 像素，完美抵消陰影縮小的距離 */
+    transform: translateY(5px);
+    /* 陰影變薄，模擬按鈕被壓入底層的視覺感 */
+    box-shadow: 0 1px #004085, 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* 輔助：歸零按鈕樣式 */
+.reset-btn {
+    display:flexbox;
+    margin: 20px auto 0 auto;
+    background: none;
+    border: none;
+    color: #777777;
+    font-size: 5rem;
+    cursor: pointer;
+    
+}
+.reset-btn:hover {
+    color: #333333;
+}
