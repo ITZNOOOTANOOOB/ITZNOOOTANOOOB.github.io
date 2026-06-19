@@ -31,13 +31,13 @@
 ``` 
 [![Star History Chart](https://api.star-history.com/chart?repos=ITZNOOOTANOOOB/ITZNOOOTANOOOB.github.io&type=date&legend=top-left)](https://www.star-history.com/?repos=ITZNOOOTANOOOB%2FITZNOOOTANOOOB.github.io&type=date&legend=top-left)
 # 😍THANKS!😍
-**•[ITZNOOOTANOOOB](https://github.com/ITZNOOOTANOOOB)**
+**•[*ITZNOOOTANOOOB*](https://github.com/ITZNOOOTANOOOB)**
 
 
 ![](https://avatars.githubusercontent.com/u/287373020?v=4)
 
 
-**•[ItzREALanobody](https://github.com/ItzREALanobody)**
+**•[*ItzREALanobody*](https://github.com/ItzREALanobody)**
 
 
 ![](https://avatars.githubusercontent.com/u/213254601?v=4)
