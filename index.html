@@ -5,15 +5,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title style="">ITZNOOTANOOOB's website</title>
+    <title >ITZNOOTANOOOBφ(*￣0￣)</title>
     
     <!-- 引入與 HTML 在同一資料夾下的 style.css -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/button.css">
     <link rel="stylesheet" href="css/click.css">
+    <link rel="stylesheet" href="css/text.css">
 </head>
 
 <body>
+    
     <style>.game-wrapper {
     display: grid;
     place-items: center; /* 一键实现水平和垂直完美居中 */
@@ -25,12 +27,14 @@
     align-items: center;     /* 垂直居中 */
 }
 </style>
+
     
 
     <!-- 文字內容遮罩區塊 -->
     <div class="content-box">
-        <h1 style="text-align: center;font-size: 5rem;font-family: Book Antiqua;">Welcome to this site!</h1>
-        <p style="text-align: center;"> By ITZNOOTANOOOB</p>
+        <h1 class="gradient-text" style="text-align: center;font-size: 5rem;font-family: Book Antiqua;">Welcome to this site!</h1>
+        <p class="gradient-text" style="text-align: center;"> φ(*￣0￣)</p>
+        <p class="gradient-text"style="text-align: center;font-family: Book Antiqua;"> By ITZNOOTANOOOB</p>
          <div class="game-wrapper">
             <iframe src="2048.html" width="360" height="480" frameborder="0" scrolling="no"></iframe></div>
         <!-- 計數器容器 -->
@@ -55,18 +59,17 @@
         
     </div>
 </div>
-<script>
-    // 1. 抓取網頁上的元素
+<script >
     const counterDisplay = document.getElementById('counter');
     const clickBtn = document.getElementById('clickBtn');
     const resetBtn = document.getElementById('resetBtn');
 
     // 2. 設定初始數字
-    let count = 0;
+    let count = 2;
 
     // 3. 監聽點擊按鈕事件
     clickBtn.addEventListener('click', () => {
-        count++; // 數字加 1
+        count++ ; // 數字加 1
         counterDisplay.textContent = count; // 更新畫面數字
     });
 
@@ -74,7 +77,10 @@
     resetBtn.addEventListener('click', () => {
         count = 0; // 數字歸零
         counterDisplay.textContent = count; // 更新畫面數字
-    });
+        alert("Zero!")}
+      );
+    
+    
 </script>
 
 </body>

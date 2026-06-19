@@ -1,0 +1,31 @@
+
+         /* 1. 让父级容器充满全屏，并使其子元素水平、垂直完美居中 */
+        body {
+            margin: 0;
+            height: 100vh;             /* 占满屏幕高度 */
+            display: flex;
+            justify-content: center;   /* 水平居中 */
+            align-items: right;       /* 垂直居中 */
+            background-color: #f5f5f5;
+        }
+
+        /* 2. 打字机组件本身（保持原样，仅做微调） */
+        .typewriter {
+            font-family: monospace;
+            font-size: 32px;
+            white-space: nowrap;
+            overflow: hidden;
+            border-right: 3px solid #333; 
+            width: 14ch; /* 7个中文字符 * 2 = 14ch */
+            animation: typing 3.5s steps(14) infinite, blink 0.75s step-end infinite;
+        }
+
+        @keyframes typing {
+            from { width: 0; }
+            to { width: 14ch; }
+        }
+
+        @keyframes blink {
+            from, to { border-color: transparent }
+            50% { border-color: orange; }
+        }

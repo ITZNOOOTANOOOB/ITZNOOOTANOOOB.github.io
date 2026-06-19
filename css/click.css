@@ -7,6 +7,7 @@
 
 /* 數字顯示區域 */
 .counter-display {
+    font-family: "方正舒体";
     font-size: 3.5rem;
     font-weight: bold;
     color: #333333;
@@ -18,7 +19,7 @@
 /* 核心：具有立體點擊感的按鈕 */
 .click-btn {
     display: flex;
-    padding: 16px 32px;
+    padding: 14px 30px;
     font-size: 1.2rem;
     font-weight: bold;
     color: #ffffff;
@@ -53,13 +54,16 @@
 
 /* 輔助：歸零按鈕樣式 */
 .reset-btn {
-    display:flexbox;
-    margin: 20px auto 0 auto;
-    background: none;
+    display: flex;
+    padding: 16px 32px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #cc3ee9; /* 質感藍色 */
     border: none;
-    color: #777777;
-    font-size: 5rem;
+    border-radius: 81px;
     cursor: pointer;
+    outline: none;
     
 }
 .reset-btn:hover {
