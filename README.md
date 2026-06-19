@@ -8,7 +8,7 @@
 ![(http://myself.lz567yyds.cc.cd/)](https://img.shields.io/badge/Who's_Website-red?style=flat&color=red&link=http%3A%2F%2Fmyself.lz567yyds.cc.cd%2F)
 
 ##
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Oswald&weight=600&size=30&pause=1000&color=F7F7F7&center=true&vCenter=true&width=435&lines=ItzreallyNBBBBB+website;ITZNOOOTANOOOB'S+project)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Oswald&weight=600&size=30&pause=1000&color=F7F7F7&center=true&vCenter=true&width=435&lines=ItzreallyNBBBBB's+website;ITZNOOOTANOOOB'S+project)](https://git.io/typing-svg)
 ## ❤2. LZNB
 **LZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNB**
 ## 🚀3. NOW IM IMPROVING
@@ -30,7 +30,7 @@
 
 ``` 
 [![Star History Chart](https://api.star-history.com/chart?repos=ITZNOOOTANOOOB/ITZNOOOTANOOOB.github.io&type=date&legend=top-left)](https://www.star-history.com/?repos=ITZNOOOTANOOOB%2FITZNOOOTANOOOB.github.io&type=date&legend=top-left)
-# **😍THANKS!**😍
+# 😍THANKS!😍
 **•[ITZNOOOTANOOOB](https://github.com/ITZNOOOTANOOOB)**
 
 
