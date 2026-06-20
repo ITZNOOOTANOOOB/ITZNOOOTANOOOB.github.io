@@ -13,9 +13,9 @@ body {
 .content-box {
     background-color: rgba(255, 255, 255, 0.85); /* 白色背景，85% 不透明度 */
     padding: 40px;
-    margin: 100px auto; /* 上下留空 100px，左右自動置中 */
-    max-width: 600px; /* 限制框框的最大寬度 */
-    border-radius: 12px; /* 圓角效果 */
+    margin: 600px auto; /* 上下留空 100px，左右自動置中 */
+    max-width: 1000px; /* 限制框框的最大寬度 */
+    border-radius: 36px; /* 圓角效果 */
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15); /* 淡淡的陰影 */
 }
 

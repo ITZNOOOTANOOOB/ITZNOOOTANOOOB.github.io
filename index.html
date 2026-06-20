@@ -53,8 +53,8 @@
                                       
       <div class="btn-group">
         <!-- 请把 href="#" 换成你想跳轉的網址，例如 https://google.com -->
-        <a href="https://www.google.com/" class="btn">Search</a>
-        <a href="https://github.com/ITZNOOOTANOOOB/ITZNOOOTANOOOB.github.io" class="btn primary-btn">Github</a>
+        <a href="https://www.google.com/" class=" custom-btn">Search</a>
+        <a href="https://github.com/ITZNOOOTANOOOB/ITZNOOOTANOOOB.github.io" class="primary-btn">Github</a>
         <a href="https://x.com/SantaFe1534950" class="btn">Twitter</a>
         
     </div>
@@ -63,22 +63,138 @@
     const counterDisplay = document.getElementById('counter');
     const clickBtn = document.getElementById('clickBtn');
     const resetBtn = document.getElementById('resetBtn');
-
-    // 2. 設定初始數字
-    let count = 2;
-
+    const addBtn = document.getElementById('addBtn');
+    let count = 2047;
+    const MAX_VALUE = 2049;
+    
     // 3. 監聽點擊按鈕事件
     clickBtn.addEventListener('click', () => {
+        
         count++ ; // 數字加 1
         counterDisplay.textContent = count; // 更新畫面數字
     });
+    
+    // 監聽歸零按鈕事件
+    resetBtn.addEventListener('click', () => {// ─── 替换点击事件（btn.addEventListener）内部第一行的判断 ───
 
-    // 4. 監聽歸零按鈕事件
-    resetBtn.addEventListener('click', () => {
+// ────────────────────────────────────────────────────────
+
         count = 0; // 數字歸零
         counterDisplay.textContent = count; // 更新畫面數字
-        alert("Zero!")}
+        }
       );
+    const btn = document.getElementById('clickBtn')
+    
+    
+  
+    const TRIGGER_VALUES = Array.of(5, 10, 20, 30, 40, 50, 100, 150, 2048)
+     // ─── 在这里设置你想要触发动画的特定数值 ───
+
+    clickBtn.addEventListener('click', () => {if (TRIGGER_VALUES.includes(count)) {
+        
+  
+
+  // ─── 以下是新添加的动态生成文字代码 ───
+  // 1. 创建文字标签
+  const textNode = document.createElement('div');
+  textNode.classList.add('text-popup', 'text-animate');
+  
+  // 2. 根据不同的数字，显示不同的文案（可自由修改）
+  if (count === 5) textNode.innerText = "✨ Great!";
+  else if (count === 10) textNode.innerText = "🔥 Excellent!";
+  else if (count === 20 ) textNode.innerText = "👑 Amazing!";
+  else if (count === 30) textNode.innerText = "🚀 Unbielevable!";
+  else if (count === 2048 ) textNode.innerText = "🎉What?!!!!You DID it!🏆";
+  else textNode.innerText = `⭐COMBO${count}!`; // 保底通用文案
+
+  // 3. 将文字挂载到页面上
+  document.body.appendChild(textNode);
+
+  // 4. 动画结束后（1.2秒）自动销毁，防止占用内存
+  setTimeout(() => {
+    textNode.remove();
+  }, 1200);
+  // ──────────────────────────────────────
+}
+      
+     
+
+    if (TRIGGER_VALUES.includes(count)) {
+        // 先移除动画类
+        counterDisplay.classList.remove('trigger-animation');
+        // 强行触发布局重绘，确保动画可以重复播放
+        void counterDisplay.offsetWidth; 
+        // 重新添加动画类
+        counterDisplay.classList.add('trigger-animation');
+      }
+
+     
+      
+      
+    });
+
+    // 可选：如果希望动画播完后数字恢复原样（比如不保留金色），可以监听动画结束事件
+    counterDisplay.addEventListener('animationend', () => {
+    counterDisplay.classList.remove('trigger-animation');
+    });
+ 
+   
+    // 预设你想随机出 现的图片素材列表（可以是本地图片路径、网络图片URL，或者直接是 Emoji 表情）
+    const assets = [
+      'images/GrokEdited.png', 'images/edited.png','images/black.png','❤❤❤','❤️', '⭐', '✨', '🔥', '🎉', '🍀', '💰',
+      // 如果你想用图片，请替换为图片链接，例如：
+      // 'https://flaticon.com',
+      // 'images/star.png'
+    ];
+
+    btn.addEventListener('click', (e) => {if (count >= MAX_VALUE) {
+  count = 0;                     // 1. 数字清零
+  counterDisplay.innerText = count; // 2. 刷新页面显示的数字
+  
+  // 3. 可选：清除可能残留的动画类，防止重置后样式错乱
+  counterDisplay.className = 'counter-display'; 
+  
+  return;                        // 4. 结束本次点击，不触发后续的特定数字动画和小图片
+}
+      // 1. 随机挑选一个素材
+      const randomAsset = assets[Math.floor(Math.random() * assets.length)];
+
+      // 2. 创建元素（判断是图片链接还是纯文本Emoji）
+      let element;
+      if (randomAsset.startsWith('http') || randomAsset.includes('/') || randomAsset.includes('.')) {
+        element = document.createElement('img');
+        element.src = randomAsset;
+      } else {
+        element = document.createElement('span');
+        element.innerText = randomAsset;
+      }
+      
+      element.classList.add('pop-element');
+
+      // 3. 计算鼠标点击时的绝对坐标
+      const clickX = e.clientX;
+      const clickY = e.clientY;
+      element.style.left = `${clickX}px`;
+      element.style.top = `${clickY}px`;
+
+      // 4. 随机生成发散的方向、距离和旋转角度（让效果更自然）
+      const xMove = (Math.random() - 0.5) * 260; // 左右随机散开 -80px 到 80px
+      const yMove = -100 - Math.random() * 100;  // 向上随机漂浮 -100px 到 -200px
+      const rotate = (Math.random() - 0.5) * 180; // 随机旋转角度
+
+      // 将随机值作为 CSS 变量传给动画
+      element.style.setProperty('--x-move', `${xMove}px`);
+      element.style.setProperty('--y-move', `${yMove}px`);
+      element.style.setProperty('--rotate', `${rotate}deg`);
+
+      // 5. 将元素渲染到页面中
+      document.body.appendChild(element);
+
+      // 6. 动画结束后（0.8秒），自动删除该元素释放内存
+      setTimeout(() => {
+        element.remove();
+      }, 800);
+    });
     
     
 </script>

@@ -7,14 +7,14 @@
 
 /* 數字顯示區域 */
 .counter-display {
-    font-family: "方正舒体";
-    font-size: 3.5rem;
-    font-weight: bold;
-    color: #333333;
-    margin-bottom: 20px;
-    /* 數字變動時防止畫面抖動 */
-    font-variant-numeric: tabular-nums; 
-}
+      font-size: 80px;
+      font-weight: bold;
+      font-family: "方正舒体";
+      color: #000000;
+      margin-bottom: 30px;
+      transition: color 0.3s;
+      display: inline-block; /* 确保 transform 动画生效 */
+    }
 
 /* 核心：具有立體點擊感的按鈕 */
 .click-btn {
@@ -54,18 +54,102 @@
 
 /* 輔助：歸零按鈕樣式 */
 .reset-btn {
-    display: flex;
+    display:inline-flex;
     padding: 16px 32px;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: bold;
     color: #ffffff;
-    background-color: #cc3ee9; /* 質感藍色 */
+    background-color: #790e83; 
     border: none;
     border-radius: 81px;
     cursor: pointer;
     outline: none;
+    font-family: 黑体;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease
     
 }
 .reset-btn:hover {
     color: #333333;
+}
+.pop-element {
+      position: fixed; /* 基于屏幕绝对定位 */
+      pointer-events: none; /* 确保小图片不阻挡鼠标点击 */
+      font-size: 24px; /* 如果用Emoji，可以控制大小 */
+      width: 30px;    /* 如果用图片，可以控制宽高 */
+      height: 30px;
+      object-fit: contain;
+      z-index: 9999;
+      /* 执行动画：0.8秒后结束，使用 ease-out 缓动 */
+      animation: floatUpAndFade 0.8s ease-out forwards; 
+    }
+     /* 4. 漂浮淡出动画 */
+    @keyframes floatUpAndFade {
+      0% {
+        transform: translate(-50%, -50%) translate(0, 0) scale(0.6) rotate(0deg);
+        opacity: 1;
+      }
+      100% {
+        /* X轴随机偏移和Y轴上浮在JS中通过变量动态控制，这里设置基础走向 */
+        transform: translate(-50%, -50%) translate(var(--x-move), var(--y-move)) scale(1.2) rotate(var(--rotate));
+        opacity: 0;
+      }
+    }
+    .trigger-animation {
+      /* 执行组合动画：0.5秒内，放大震动 + 颜色流光 */
+      animation: popSlam 0.5s ease-out, goldGlow 0.5s ease-out;
+      color: #ffd700; /* 到达目标值时文字变成金色 */
+    }
+
+    /* 动画 A：数字震动放大效果 */
+    @keyframes popSlam {
+      0% { transform: scale(1); }
+      30% { transform: scale(1.4); } /* 猛烈放大 */
+      50% { transform: scale(0.9); } /* 轻微回弹 */
+      100% { transform: scale(1); }  /* 恢复正常 */
+    }
+
+    /* 动画 B：金色光芒闪烁效果 */
+    @keyframes goldGlow {
+      0% { text-shadow: 0 0 0px rgba(255,215,0,0); }
+      50% { text-shadow: 0 0 30px rgba(255,215,0,1), 0 0 50px rgba(255,215,0,0.8); } /* 爆发出光芒 */
+      100% { text-shadow: 0 0 5px rgba(255,215,0,0.3); }
+    }
+/* 1. 文字动画容器的默认样式 */
+.text-popup {
+  position: fixed;
+  top: 35%;           /* 位于计数器上方区域 */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 28px;
+  font-weight: bold;
+  color: #ffeb3b;     /* 亮黄色文字 */
+  text-shadow: 0 0 10px rgba(255, 235, 59, 0.8);
+  pointer-events: none;
+  opacity: 0;         /* 默认隐藏 */
+  z-index: 10000;
+}
+
+/* 2. 触发动画时的类 */
+.text-animate {
+  animation: textFloatUp 1.2s ease-out forwards;
+}
+
+/* 3. 文字往上漂移、放大并淡出的动画 */
+@keyframes textFloatUp {
+  0% {
+    transform: translate(-50%, 0) scale(0.7);
+    opacity: 0;
+  }
+  20% {
+    transform: translate(-50%, -20px) scale(1.2); /* 快速放大弹出 */
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-50%, -80px) scale(1);   /* 向上漂移并淡出 */
+    opacity: 0;
+  }
 }
