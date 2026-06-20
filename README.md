@@ -31,6 +31,10 @@
 ``` 
 [![Star History Chart](https://api.star-history.com/chart?repos=ITZNOOOTANOOOB/ITZNOOOTANOOOB.github.io&type=date&legend=top-left)](https://www.star-history.com/?repos=ITZNOOOTANOOOB%2FITZNOOOTANOOOB.github.io&type=date&legend=top-left)
 # 😍THANKS!😍
+
+**•[*kubowania's project 2048*](https://github.com/kubowania/2048)**
+
+
 **•[*ITZNOOOTANOOOB*](https://github.com/ITZNOOOTANOOOB)**
 
 

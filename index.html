@@ -36,7 +36,7 @@
         <p class="gradient-text" style="text-align: center;"> φ(*￣0￣)</p>
         <p class="gradient-text"style="text-align: center;font-family: Book Antiqua;"> By ITZNOOTANOOOB</p>
          <div class="game-wrapper">
-            <iframe src="2048.html" width="360" height="480" frameborder="0" scrolling="no"></iframe></div>
+            <iframe src="./2048-master/index.html" width="800" height="700" frameborder="0" scrolling="no"></iframe></div>
         <!-- 計數器容器 -->
     <div class="counter-container">
     <!-- 顯示數字的區域 -->
@@ -56,16 +56,24 @@
         <a href="https://www.google.com/" class=" custom-btn">Search</a>
         <a href="https://github.com/ITZNOOOTANOOOB/ITZNOOOTANOOOB.github.io" class="primary-btn">Github</a>
         <a href="https://x.com/SantaFe1534950" class="btn">Twitter</a>
-        
+        <button
+        class="version-btn"id="versionBtn">V 1.0.0 All rights reserved</button>
     </div>
 </div>
+
 <script >
     const counterDisplay = document.getElementById('counter');
     const clickBtn = document.getElementById('clickBtn');
     const resetBtn = document.getElementById('resetBtn');
     const addBtn = document.getElementById('addBtn');
+    const versionBtn = document.getElementById('versionBtn')
+    
+    
+    
+    
     let count = 2047;
     const MAX_VALUE = 2049;
+    
     
     // 3. 監聽點擊按鈕事件
     clickBtn.addEventListener('click', () => {
@@ -87,7 +95,7 @@
     
     
   
-    const TRIGGER_VALUES = Array.of(5, 10, 20, 30, 40, 50, 100, 150, 2048)
+    const TRIGGER_VALUES = Array.of(5, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 150, 200, 300, 400, 500, 600, 700, 800, 900, 2048)
      // ─── 在这里设置你想要触发动画的特定数值 ───
 
     clickBtn.addEventListener('click', () => {if (TRIGGER_VALUES.includes(count)) {
@@ -103,8 +111,9 @@
   if (count === 5) textNode.innerText = "✨ Great!";
   else if (count === 10) textNode.innerText = "🔥 Excellent!";
   else if (count === 20 ) textNode.innerText = "👑 Amazing!";
-  else if (count === 30) textNode.innerText = "🚀 Unbielevable!";
-  else if (count === 2048 ) textNode.innerText = "🎉What?!!!!You DID it!🏆";
+  else if (count === 30) textNode.innerText = "🚀 Unbelievable!";
+  else if (count === 100 ) textNode.innerText = "👑👑👑U R KINGGGG👑👑👑"
+  else if (count === 2048 ) textNode.innerText = "🎉🚀👑🔥What?!!!!You DID it!🏆✨😍💪😅";
   else textNode.innerText = `⭐COMBO${count}!`; // 保底通用文案
 
   // 3. 将文字挂载到页面上
@@ -193,10 +202,10 @@
       // 6. 动画结束后（0.8秒），自动删除该元素释放内存
       setTimeout(() => {
         element.remove();
-      }, 800);
+      }, 1000);
     });
     
-    
+  versionBtn.addEventListener('click', () => {alert("HEY!This is my first Website! @ITZNOOOTANOOOB")})
 </script>
 
 </body>

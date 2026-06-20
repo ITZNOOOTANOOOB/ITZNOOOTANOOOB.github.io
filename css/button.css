@@ -1,8 +1,8 @@
 /* ==========================================
-   3. 按鈕與並列佈局設定
+   按鈕與並列佈局設定
    ========================================== */
 
-/* 按鈕的外層容器：負責排版 */
+
 
 
 /* 按鈕的通用樣式（長相） */
@@ -71,7 +71,7 @@
     transform: translateY(-2px); /* 按鈕微微往上浮動，增加互動感 */
 }
 .primary-btn::before{
-    content: ""; /* 必须写，否则伪元素不生效 */
+  content: ""; /* 必须写，否则伪元素不生效 */
   display: inline-block;
   width: 25px;
   height: 25px;
@@ -90,12 +90,7 @@
     display: flex;
     gap: 15px;
     justify-content: center;
-    flex-wrap: wrap;
-
-   
-    
-   
-}
+    flex-wrap: wrap;}
 
 
 
@@ -129,8 +124,27 @@
     background-color: #00ff5e;
     transition: all 0.2s ease;
     color: #fffefe;
-    transform: translateY(-2px); /* 按鈕微微往上浮動，增加互動感 */}
+    transform: translateY(-3px); /* 按鈕微微往上浮動，增加互動感 */}
+ 
 
+ .version-btn{
+        display: flex; 
+        align-items: center;
+        position: fixed;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+        padding: 10px 20px;
+        bottom: 1%;
+        border: none;
+        color: grey;
+        text-decoration: none;
+        border-radius: 85px;
+        cursor: pointer;
+        background-color: rgba(255, 255, 255, 0.85)}   
+ .version-btn:hover{
+        
+        transform: translateY(+3px);
+        transition: all 0.2s ease; }
+ 
 
 
 
@@ -162,4 +176,3 @@
     
     
     */
-             
