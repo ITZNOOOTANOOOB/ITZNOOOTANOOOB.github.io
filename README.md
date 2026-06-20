@@ -35,6 +35,9 @@
 **•[*kubowania's project 2048*](https://github.com/kubowania/2048)**
 
 
+**•[*WannJJ's project 2048*](https://github.com/WannJJ/2048-javascript)**
+
+
 **•[*ITZNOOOTANOOOB*](https://github.com/ITZNOOOTANOOOB)**
 
 
