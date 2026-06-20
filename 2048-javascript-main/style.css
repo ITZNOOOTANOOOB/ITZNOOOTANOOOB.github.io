@@ -1,9 +1,9 @@
 html,
 body {
   /* border: 5px solid black; */
-  background: linear-gradient(280deg, hsl(210, 70%, 80%), #eeffee);
+  background-color: rgba(255, 233, 255, 0);
   /* Disable pull-to-refresh */
-  overscroll-behavior: contain;
+  
   /* overflow: hidden; */
 }
 
@@ -12,7 +12,7 @@ div {
   height: 90px;
   position: absolute;
 
-  font: bold 50px Times New Roman;
+  font: bold 50px 微软雅黑;
   text-align: center;
   line-height: 70px;
 
@@ -20,7 +20,7 @@ div {
 }
 
 .board {
-  background: rgb(150, 150, 150);
+  background: rgb(138, 135, 135);
   width: 435px;
   height: 435px;
 
