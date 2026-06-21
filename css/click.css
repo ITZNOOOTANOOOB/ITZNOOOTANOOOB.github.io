@@ -23,7 +23,7 @@
     font-size: 1.2rem;
     font-weight: bold;
     color: #ffffff;
-    background-color: #000000; /* 質感藍色 */
+    background-color: #0669b1; 
     border: none;
     border-radius: 8px;
     cursor: pointer;
@@ -55,7 +55,7 @@
 /* 輔助：歸零按鈕樣式 */
 .reset-btn {
     display:inline-flex;
-    padding: 16px 32px;
+    padding: 14px 32px;
     font-size: 1.5rem;
     font-weight: bold;
     color: #ffffff;
@@ -68,10 +68,13 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease
     
+    
 }
-.reset-btn:hover {
-    color: #333333;
-}
+ 
+
+.reset-btn:active{
+  background-color: #4b1c4f;
+  box-shadow: 0 6px #845288, 0 10px 15px rgba(0, 0, 0, 0.2);}
 .pop-element {
       position: fixed; /* 基于屏幕绝对定位 */
       pointer-events: none; /* 确保小图片不阻挡鼠标点击 */
