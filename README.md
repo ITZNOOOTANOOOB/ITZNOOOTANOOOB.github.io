@@ -1,5 +1,5 @@
-# **[![Typing SVG](https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=25&duration=3000&pause=20&color=F7E1A0&background=E7E4E100&vCenter=true&width=435&lines=ITZNOOOTANOOOB's+Project;This+is+ITZNOOOTANOOOB's+first+;WEBSITE!)](https://git.io/typing-svg)** #
-# **[WEBSITE](http://myself.lz567yyds.cc.cd)** #
+# <h1>**[![Typing SVG](https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=25&duration=3000&pause=20&color=F7E1A0&background=E7E4E100&vCenter=true&width=435&lines=ITZNOOOTANOOOB's+Project;This+is+ITZNOOOTANOOOB's+first+;WEBSITE!)](https://git.io/typing-svg)**</h1> #
+# <strong><h1>**🌏🚀[(o-WEBSITE-o)](http://myself.lz567yyds.cc.cd)✨🎇** </h1> </strong> #
 # ![Myself](https://raw.githubusercontent.com/ITZNOOOTANOOOB/ITZNOOOTANOOOB.github.io/refs/heads/main/images/GrokEdited.png) #
 
 <p align="center"><em>
