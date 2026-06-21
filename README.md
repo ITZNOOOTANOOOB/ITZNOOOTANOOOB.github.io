@@ -11,9 +11,9 @@
 
 **<strong><h1>🌏Functions</h1> </strong>** 
 **1.You can play a [2048 game](https://wannjj.github.io/) in the homepage.**  
-**2.You can play  <u>a clicking game</u> under the 2048 game.**  
-**3.You can also use the buttons to jump to other sites quickly.(e.g Google.com)  and contact my [Twitter](https://x.com/SantaFe1534950).**  
-**4.You can check the <u>version</u> of this site.**
+**2.You can play a [clicking game](http://myself.lz567yyds.cc.cd) under the 2048 game.**  
+**3.You can also use the buttons to jump to other sites quickly.(e.g [Google.com](https://google.com))  and contact my [Twitter](https://x.com/SantaFe1534950).**  
+**4.You can check the [version](http://myself.lz567yyds.cc.cd) of this site.**
 
 ## ❤ 2. LZNB
 **LZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNBLZNB**
