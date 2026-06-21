@@ -94,14 +94,14 @@
 
 
 
-.custom-btn{
+.custom-btn {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
   transition: box-shadow 0.2s ease, transform 0.2s ease;  
   display: flex;
   align-items: center;
   padding: 10px 20px;
-  background-color: #e69111;
-  color: white;
+  background-color: #d4c1a6;
+  color: rgb(0, 0, 0);
   text-decoration: none;
   font-weight: bold;
   border: none;
@@ -109,7 +109,7 @@
   cursor: pointer;
   transition: all 0.2s ease;
 }
-.custom-btn::before{
+.custom-btn::before {
   content: ""; /* 必须写，否则伪元素不生效 */
   display: inline-block;
   width: 25px;
@@ -118,12 +118,13 @@
   /* 引入图标图片 */
   background-image: url('../search_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg');
   background-size: contain;
-  background-repeat: no-repeat;}
+  background-repeat: no-repeat;
+  }
 
 .custom-btn:hover{
-    background-color: #00ff5e;
+    background-color: #ecb466dd;
     transition: all 0.2s ease;
-    color: #fffefe;
+    color: #ffffff;
     transform: translateY(-3px); /* 按鈕微微往上浮動，增加互動感 */}
  
 
@@ -144,6 +145,33 @@
         
         transform: translateY(+3px);
         transition: all 0.2s ease; }
+
+  .mail-btn{
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+    display: flex;
+    padding: 12px 24px;   /* 按鈕內邊距（上下 12px，左右 24px） */
+    font-size: 1rem;
+    color: #212020;       /* 按鈕文字顏色 */
+    background-color: #f0f0f0; /* 按鈕背景顏色 */
+    text-decoration: none; /* 移除超連結預設的下底線 */
+    border-radius: 6px;   /* 按鈕圓角 */
+    border: 1px solid #dddddd;
+    font-weight: bold;
+    text-align: center;
+    transition: all 0.2s ease; /* 讓滑鼠移上去的變色效果更平滑 */
+    cursor: pointer;}     
+    
+
+  .mail-btn:hover{ 
+        background-color: #d0abe5;
+        transition: all 0.2s ease;
+        color: #ffffff;       
+        transform: translateY(-3px);
+        transition: all 0.2s ease; }
+
+
+        
  
 
 
