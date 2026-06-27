@@ -1,0 +1,114 @@
+<html 
+    lang="en-US">
+    
+    <body>
+        
+        <style>.resolutions{
+            background-color: black;
+            font-family: Book Antiqua;
+            font-display: swap;
+            font-size: xx-large;
+            font-variant:inherit;
+            bottom: 10px;
+            top: 10px;
+            margin: 0;
+            text-align:center;}
+                html, body {
+                    height: 100%;
+                        margin: 0;               /* 去掉默认空隙 */
+                            background-color: #000;  /* 纯黑 */
+                            color: #fff;             /* 文字用白色，确保可读性 */
+                            -webkit-font-smoothing: antialiased;
+                            -moz-osx-font-smoothing: grayscale;
+                }
+                
+        #loader {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(0, 0, 0);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        z-index: 9999;
+    }
+
+    .progress-bar {
+        width: 200px;
+        height: 4px;
+        background-color: #000000;
+        border-radius: 9991px;
+        
+    }
+
+    .progress {
+        height: 100%;
+        background: linear-gradient(1000deg, #ffffff, #000000);
+        width: 0%;
+        animation: progress 2.5s ease-in-out;
+        overflow: hidden;
+    }
+
+    @keyframes progress {
+        0% { width: 0%; }
+        50% { width: 50%; }
+        100% { width: 101%; }
+    }
+
+          
+        
+        </style>
+            <div id="loader">
+             <h1 style="color: aliceblue;
+             font-family:Book Antiqua ;
+             font-weight: 600;
+             position: -webkit-sticky;">
+            
+              LOADING!
+            
+            </h1> 
+            <div class="progress-bar">
+            <div class="progress"></div>
+    </div>
+    <script>
+        window.addEventListener('load', function() {
+        setTimeout(function() {
+            document.getElementById('loader').style.display = 'none';
+        }, 2400);
+    });
+    
+</script>
+</div>
+
+
+        </style>
+        
+        </body>
+<div class="resolutions">
+    <h style="font-size: 100px;font-weight:700;color:rgb(255, 255, 255);"
+    >My resolutions</h>
+    <p>1.Fix the loading screen</p>
+    <p>2.Develop a new game</p>
+    <p>3.Make a section for articles</p>
+    <p>4.Make a section for videos</p>
+    <p>5.Exercise every day</p>
+    <p>6.Learn more about html css and js</p>
+    <p>7.Learn to design a page</p>
+    <p>8.Learn to use english wisely</p>
+    <p>9.Make a music player with UI</p>
+    </div>
+    
+    
+    </html>
+
+
+
+
+
+
+
+
+    

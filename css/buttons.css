@@ -136,7 +136,7 @@
         padding: 10px 20px;
         bottom: 1%;
         border: none;
-        color: grey;
+        color: rgb(255, 255, 255);
         text-decoration: none;
         border-radius: 85px;
         cursor: pointer;
@@ -169,9 +169,38 @@
         color: #ffffff;       
         transform: translateY(-3px);
         transition: all 0.2s ease; }
+  
 
 
-        
+
+
+  /* 对话框按钮布局 */
+  
+  .backdrop {
+    position: absolute; inset: 0;
+    background: rgba(0,0,0,0.5);
+  }
+  .modal {
+    position: relative;
+    background: #fff; color:#000;
+    padding: 16px; border-radius: 8px;
+    width: 90%; max-width: 420px;
+    transform: translateY(-8px) scale(.995);
+    opacity: 0;
+  }
+
+  /* 进入/退出动画 */
+  @keyframes overlayIn { from { opacity: 0 } to { opacity: 1 } }
+  @keyframes overlayOut { from { opacity: 1 } to { opacity: 0 } }
+  @keyframes modalIn { from { opacity:0; transform: translateY(-8px) scale(.995) } to { opacity:1; transform: translateY(0) scale(1) } }
+  @keyframes modalOut { from { opacity:1; transform: translateY(0) scale(1) } to { opacity:0; transform: translateY(-8px) scale(.995) } }
+
+  .overlay.show { display:flex; animation: overlayIn .22s ease forwards; }
+  .overlay.show .modal { animation: modalIn .22s ease forwards; }
+  .overlay.hide { animation: overlayOut .18s ease forwards; }
+  .overlay.hide .modal { animation: modalOut .18s ease forwards; }
+
+  .row { display:flex; gap:8px; justify-content:flex-end; margin-top:12px; }        
  
 
 
