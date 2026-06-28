@@ -17,6 +17,7 @@ body {
     max-width: 1000px; /* 限制框框的最大寬度 */
     border-radius: 36px; /* 圓角效果 */
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15); /* 淡淡的陰影 */
+    align-items:safe top;
 }
 
 h1 {
@@ -63,3 +64,27 @@ p {
         50% { width: 50%; }
         100% { width: 101%; }
     }
+    /* 在你原有 CSS 后面加上这段 */
+.fade-out-on-click {
+    animation: fadeOutClick 0.7s forwards !important;
+}
+
+@keyframes fadeOutClick {
+    to {
+        opacity: 0;
+        transform: scale(0.9) translateY(20px);   /* 可自行调整 */
+    }
+}
+@font-face {
+  font-family: 'Spotify Mix';     /* 你给字体起的名字 */
+  src: url('/fonts/SPOTIFYMIX-BLACK.TTF') format('ttf'),
+       
+  ;font-weight: 700;             /* 可设置 400, 700 等 */
+  font-style: normal;
+  font-display: swap;              /* 关键！防止隐形文本 */
+}
+
+/* 使用字体 */
+body {
+  font-family: 'MyCustomFont', system-ui, -apple-system, sans-serif;
+}
