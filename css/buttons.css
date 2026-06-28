@@ -129,6 +129,9 @@
  
 
  .version-btn{
+        font-family: Bebas Neue;
+        font-weight: bolder;
+        font-style: inherit;
         display: flex; 
         align-items: center;
         position: fixed;
