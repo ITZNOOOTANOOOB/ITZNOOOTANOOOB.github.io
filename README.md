@@ -2,8 +2,8 @@
 # <strong><h1>**🌏🚀[(WEBSITE)](http://myself.lz567yyds.cc.cd)✨🎇** </h1> </strong> #
 # ![Myself](https://raw.githubusercontent.com/ITZNOOOTANOOOB/ITZNOOOTANOOOB.github.io/refs/heads/main/images/GrokEdited.png) #
 
-<p align="center"><em>
-  <strong><h1>🚀 Its my first try to set up a webpage</h1></em></strong>
+<p align="center">
+<em><strong><h1>🚀 It's my first try to set up a website</h1></em></strong>
 </p>
 
 ![(http://myself.lz567yyds.cc.cd/)](https://img.shields.io/badge/Who's_Website-red?style=flat&color=red&link=http%3A%2F%2Fmyself.lz567yyds.cc.cd%2F)
@@ -14,7 +14,7 @@
 **🐔2.You can play a [clicking game](http://myself.lz567yyds.cc.cd) under the 2048 game.**  
 **🐔3.You can also use the buttons to jump to other sites quickly.(e.g [Google.com](https://google.com))  and contact my [Twitter](https://x.com/SantaFe1534950).**  
 **🐔4.You can check the [version](http://myself.lz567yyds.cc.cd) of this site.**
-**🐔5.You could find my resolutions**
+**🐔5.You could find my <em>[Resolutions]</em>(http://myself.lz567yyds.cc.cd/html/Resolutions.html)**
 
 ## ❤ 2. LZNB
 **<strong>❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB</strong>**
