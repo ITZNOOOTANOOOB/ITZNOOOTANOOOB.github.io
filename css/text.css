@@ -7,6 +7,7 @@
             background-size: 600% auto;
             /* 关键：将背景裁剪到文字上，并将文字本身变透明 */
             -webkit-background-clip: text;
+            background-clip: text;
             -webkit-text-fill-color: transparent;
             /* 触发流动动画 */
             animation: shine 0.4s linear infinite;

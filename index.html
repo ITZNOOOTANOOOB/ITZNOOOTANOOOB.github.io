@@ -28,7 +28,7 @@
 }
 </style>
  <div id="loader">
-  <p style="color: aliceblue;font-family:微软雅黑 ;font-weight: bolder;">LOADING!</p> 
+  <p class="gradient-text" style="color: aliceblue;font-family:微软雅黑 ;font-weight: bolder;">LOADING!</p> 
     <div class="progress-bar">
         <div class="progress"></div>
     </div>
@@ -94,44 +94,7 @@
     const overlay = document.getElementById('overlay');
     const closeBtn = document.getElementById('close');
     const innerBtn = document.getElementById('inner');
-     function versionBtn() {
-      // 显示并触发进入动画
-      overlay.classList.remove('hide');
-      overlay.style.display = 'flex';
-      // 强制重排确保动画生效
-      void overlay.offsetWidth;
-      overlay.classList.add('show');
-      innerBtn.focus();
-    }
-
-    function closeModal() {
-      // 触发退出动画，然后在动画结束后隐藏
-      overlay.classList.remove('show');
-      overlay.classList.add('hide');
-      // 等待动画结束后隐藏元素并恢复焦点
-      const onAnimEnd = () => {
-        overlay.style.display = 'none';
-        overlay.classList.remove('hide');
-        overlay.removeEventListener('animationend', onAnimEnd);
-        openBtn.focus();
-      };
-      overlay.addEventListener('animationend', onAnimEnd);
-    }
-
-    openBtn.addEventListener('click', openModal);
-    closeBtn.addEventListener('click', closeModal);
-    innerBtn.addEventListener('click', () => alert('你点击了对话框内的按钮'));
-
-    // 点击遮罩（非内容区）关闭
-    overlay.addEventListener('click', (e) => {
-      if (e.target === overlay || e.target.classList.contains('backdrop')) closeModal();
-    });
-
-    // Esc 键关闭
-    document.addEventListener('keydown', (e) => {
-      if (e.key === 'Escape' && overlay.style.display === 'flex') closeModal();
-    });
-    
+     
     
     
     
@@ -270,15 +233,7 @@
     });
     
   versionBtn.addEventListener('click', () => {alert("HEY!φ(*￣0￣)\nThis is my first Website! \n@ITZNOOOTANOOOB\nMy email:myself@lz566yyds.qzz.io")})
-  // 页面加载完成后隐藏加载动画
-        window.addEventListener('load', function() {
-            document.getElementById('loader').classList.add('hidden');
-        });
-
-        // 或者设置延迟隐藏（模拟加载时间）
-        setTimeout(function() {
-        document.getElementById('loader').classList.add('hidden');
-        }, 3000); // 3秒后隐藏
+ 
 </script>
 
 </body>

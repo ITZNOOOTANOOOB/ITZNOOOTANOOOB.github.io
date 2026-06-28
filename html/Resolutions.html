@@ -1,9 +1,31 @@
-<html 
-    lang="en-US">
+<html lang="en-US">
+<div class="resolutions">
+    <a class="back" href="../index.html">←Back</a>
+    <h class="gradient-text" style="font-size: 100px;font-weight:700;color:rgb(255, 0, 0);"
+    >My resolutions</h>
+    <p>1.Fix the loading screen</p>
+    <p>2.Develop a new game</p>
+    <p>3.Make a section for articles</p>
+    <p>4.Make a section for videos</p>
+    <p>5.Exercise every day</p>
+    <p>6.Learn more about html css and js</p>
+    <p>7.Learn to design a page</p>
+    <p>8.Learn to use english wisely</p>
+    <p>9.Make a music player with UI</p>
+    <p>10.Make a theme for Specetify</p>
+    <p>11.Discover more music</p>
+    <p>12.Finish the preview about next term</p>
+    <p>13.Make the website more uesful</p>
+    <p>14.Add a translator for the website</p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+    </div>
     
     <body>
-        
-        <style>.resolutions{
+              <style>.resolutions{
             background-color: black;
             font-family: Book Antiqua;
             font-display: swap;
@@ -57,8 +79,43 @@
         50% { width: 50%; }
         100% { width: 101%; }
     }
+    .back{display: flex; 
+        align-items: center;
+        position: fixed;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+        padding: 10px 20px;
+        bottom: 1%;
+        border: none;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        border-radius: 85px;
+        cursor: pointer;
+        background-color: rgba(71, 181, 228, 0.85)}
+    .back:hover{
+        transform: translateY(+3px);
+        transition: all 0.2s ease; 
+    
+    
+    
+    
+    }      
+    .gradient-text {
+            font-size: 48px;
+            font-weight: bold;
+            /* 设置渐变背景 */
+            background: linear-gradient(to right, #ff0000, #ffffff, #ff0000, #ffffff, #ffffff);
+            background-size: 1000% auto;
+            /* 关键：将背景裁剪到文字上，并将文字本身变透明 */
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            /* 触发流动动画 */
+            animation: shine 0.4s linear infinite;
+        }
 
-          
+        @keyframes shine {
+            to { background-position: 52% center; }
+        }
         
         </style>
             <div id="loader">
@@ -85,23 +142,9 @@
 
 
         </style>
+  
         
         </body>
-<div class="resolutions">
-    <h style="font-size: 100px;font-weight:700;color:rgb(255, 0, 0);"
-    >My resolutions</h>
-    <p>1.Fix the loading screen</p>
-    <p>2.Develop a new game</p>
-    <p>3.Make a section for articles</p>
-    <p>4.Make a section for videos</p>
-    <p>5.Exercise every day</p>
-    <p>6.Learn more about html css and js</p>
-    <p>7.Learn to design a page</p>
-    <p>8.Learn to use english wisely</p>
-    <p>9.Make a music player with UI</p>
-    </div>
-    
-    
     </html>
 
 
