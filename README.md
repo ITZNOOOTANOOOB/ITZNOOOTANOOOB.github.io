@@ -14,7 +14,8 @@
 **🐔2.You can play a [clicking game](http://myself.lz567yyds.cc.cd) under the 2048 game.**  
 **🐔3.You can also use the buttons to jump to other sites quickly.(e.g [Google.com](https://google.com))  and contact my [Twitter](https://x.com/SantaFe1534950).**  
 **🐔4.You can check the [version](http://myself.lz567yyds.cc.cd) of this site.**  
-**🐔5.You could find my <em>[Resolutions](http://myself.lz567yyds.cc.cd/html/Resolutions.html).</em>**  
+**🐔5.You could find my <em>[Resolutions](http://myself.lz567yyds.cc.cd/html/Resolutions.html).</em>**   
+**🐔6.[Translation](http://myself.lz567yyds.cc.cd) is realized!<em>(Using Google)</em>** 
 
 ## ❤ 2. LZNB
 **<strong>❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB❤LZNB</strong>**
