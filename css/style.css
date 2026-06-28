@@ -54,7 +54,7 @@ p {
         height: 100%;
         background: linear-gradient(90deg, #667eea, #764ba2);
         width: 0%;
-        animation: progress 2.5s ease-in-out;
+        animation: progress 3s ease-in-out;
         overflow: hidden;
     }
 
@@ -63,19 +63,3 @@ p {
         50% { width: 50%; }
         100% { width: 101%; }
     }
-
-     
-        /* Google Translate 官方样式优化 */
-        .goog-te-gadget {
-            font-family: Arial, sans-serif !important;
-        }
-        
-        .goog-te-gadget .goog-te-combo {
-            margin: 0px 0px;
-            padding: 8px 12px;
-        }
-    
-
-
-
-    
